@@ -124,19 +124,19 @@ article main .projects .project-cards {
 article main .announce-trends {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 300px 1fr;
-      grid-template-rows: 300px 1fr;
+  -ms-grid-rows: 290px 1fr;
+      grid-template-rows: 290px 1fr;
   gap: 2rem;
 }
 
 article main .announce-trends .announcements {
-  height: 300px;
+  height: 290px;
   background-color: #FFFFFF;
   border-radius: 5%;
 }
 
 article main .announce-trends .trends {
-  height: 237px;
+  height: 272px;
   background-color: #FFFFFF;
   border-radius: 5%;
 }
