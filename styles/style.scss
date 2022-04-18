@@ -204,7 +204,13 @@ article {
         background-color: $white;
         border-radius: 10px;
         padding: 1.5rem;
+        border-left: 10px solid $gold;
         position: relative;
+
+        h1 {
+          font-size: 1.2rem;
+          margin-bottom: 0.1rem;
+        }
 
         .corner-icons {
           width: 100px;
