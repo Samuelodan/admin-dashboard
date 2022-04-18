@@ -18,7 +18,6 @@ $white: #FFFFFF;
 
 #main-container {
   min-height: 100vh;
-  // max-width: 100vw;
   font-family: $font-fam;
   display: grid;
   grid-template-columns: 1fr 4fr;
@@ -89,21 +88,14 @@ article {
       ul {
         display: flex;
         align-items: center;
-        // justify-content: space-between;
         list-style-type: none;
         gap: 1.5rem;
-        //border: 3px solid red;
-
-        // .right-li {
-        //   margin-left: auto;
-        // }
 
         span {
           display: block;
           background-color: $grey;
           width: clamp(4vw, 40rem, 50vw);
           padding: 14px;
-          // margin-right: 10rem;
           border-radius: 10px;
           
         }
@@ -111,14 +103,7 @@ article {
           margin-left: auto;
         }
 
-
-      // .name {
-      //   //justify-self: flex-end;
-      //   margin-left: auto;
-      // }
-
         li {
-          // margin-right: 1rem;
 
           >img {
             height: 20px;
@@ -156,7 +141,6 @@ article {
   main {
     padding: 2rem 2rem;
     display: grid;
-    // grid-template-rows: 1fr;
     grid-template-columns: 3fr 1.2fr;
     gap: 1.5rem;
 
@@ -168,15 +152,12 @@ article {
 
 
     .projects {
-      //border: 5px solid red;
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 2rem;
-      // justify-items: center;
       
       .project-cards {
         height: 190px;
-        //width: clamp(280px, 388.7px, 100%);
         background-color: $white;
         border-radius: 10px;
       }
@@ -185,14 +166,12 @@ article {
     }
     
     .announce-trends {
-      //border: 1px solid blue;
       display: grid;
       grid-template-rows: 290px 1fr;
       gap: 2rem;
 
       .announcements {
         height: 290px;
-        //border: 1px solid red;
         background-color: $white;
         border-radius: 10px;
       }
@@ -200,7 +179,6 @@ article {
       .trends {
         height: 272px;
         background-color: $white;
-        //border: 1px solid red;
         border-radius: 10px;
       }
 
