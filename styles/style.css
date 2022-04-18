@@ -92,6 +92,53 @@ article header {
   padding: 1rem 3rem;
 }
 
+article header .upper-row ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+  gap: 1.5rem;
+}
+
+article header .upper-row ul span {
+  display: block;
+  background-color: #E2E8F0;
+  width: clamp(4vw, 40rem, 50vw);
+  padding: 14px;
+  border-radius: 10px;
+}
+
+article header .upper-row ul .right-li {
+  margin-left: auto;
+}
+
+article header .upper-row ul li > img {
+  height: 20px;
+  margin-top: 6px;
+}
+
+article header .upper-row ul li h1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+article header .upper-row ul .avatar {
+  height: 45px;
+  width: 45px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background-color: hotpink;
+}
+
+article header .upper-row ul .avatar img {
+  height: 36px;
+}
+
 article main {
   padding: 2rem 2rem;
   display: -ms-grid;
@@ -110,8 +157,8 @@ article main h1 {
 article main .projects {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
 }
 
