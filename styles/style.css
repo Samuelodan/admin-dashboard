@@ -165,7 +165,7 @@ article main .projects {
 article main .projects .project-cards {
   height: 190px;
   background-color: #FFFFFF;
-  border-radius: 5%;
+  border-radius: 10px;
 }
 
 article main .announce-trends {
@@ -179,12 +179,12 @@ article main .announce-trends {
 article main .announce-trends .announcements {
   height: 290px;
   background-color: #FFFFFF;
-  border-radius: 5%;
+  border-radius: 10px;
 }
 
 article main .announce-trends .trends {
   height: 272px;
   background-color: #FFFFFF;
-  border-radius: 5%;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=style.css.map */
