@@ -139,6 +139,53 @@ article header .upper-row ul .avatar img {
   height: 36px;
 }
 
+article header .lower-row ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.5rem;
+}
+
+article header .lower-row ul .img-li {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  height: 60px;
+  width: 60px;
+  background-color: hotpink;
+  border-radius: 50%;
+}
+
+article header .lower-row ul .img-li img {
+  height: 50px;
+}
+
+article header .lower-row ul p {
+  font-weight: 500;
+}
+
+article header .lower-row ul h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+article header .lower-row ul button {
+  width: 80px;
+  height: 36px;
+  border: none;
+  border-radius: 24px;
+  background-color: #1992D4;
+  color: #FFFFFF;
+}
+
+article header .lower-row ul .button-start {
+  margin-left: auto;
+}
+
 article main {
   padding: 2rem 2rem;
   display: -ms-grid;
