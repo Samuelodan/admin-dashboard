@@ -301,6 +301,10 @@ article main .announce-trends .trends > div {
   gap: 1rem;
 }
 
+article main .announce-trends .trends > div h4 {
+  font-weight: 400;
+}
+
 article main .announce-trends .trends > div .pfp-div {
   width: 45px;
   height: 45px;
