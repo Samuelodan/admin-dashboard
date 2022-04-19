@@ -83,6 +83,10 @@ article {
       grid-template-rows: 150px 1fr;
 }
 
+article p {
+  color: #747474;
+}
+
 article header {
   background-color: #FFFFFF;
   display: -ms-grid;
@@ -280,5 +284,33 @@ article main .announce-trends .trends {
   height: 272px;
   background-color: #FFFFFF;
   border-radius: 10px;
+  padding: 1.5rem;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-rows: (1fr)[4];
+      grid-template-rows: repeat(4, 1fr);
+}
+
+article main .announce-trends .trends > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+
+article main .announce-trends .trends > div .pfp-div {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+article main .announce-trends .trends > div img {
+  height: 36px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -7,6 +7,7 @@ $blue: #1992D4;
 $gold: #F0B429;
 $grey: #E2E8F0;
 $white: #FFFFFF;
+$body-font-color: #747474;
 
 *,
 ::before,
@@ -76,6 +77,10 @@ article {
   background-color: $grey;
   display: grid;
   grid-template-rows: 150px 1fr;
+
+  p {
+    color: $body-font-color;
+  }
 
   header {
     background-color: $white;
@@ -267,7 +272,34 @@ article {
         height: 272px;
         background-color: $white;
         border-radius: 10px;
+        padding: 1.5rem;
         
+        display: grid;
+        align-items: center;
+        grid-template-rows: repeat(4, 1fr);
+
+
+        >div {
+          display: flex;
+          gap: 1rem;
+          //border: 1px solid red;
+
+          .pfp-div {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+
+            
+          }
+          
+          
+
+          img {
+            height: 36px;
+          }
+        }
 
 
       }
