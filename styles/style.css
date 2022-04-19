@@ -310,6 +310,22 @@ article main .announce-trends .trends > div .pfp-div {
   place-items: center;
 }
 
+article main .announce-trends .trends > div .fox {
+  background-color: teal;
+}
+
+article main .announce-trends .trends > div .lion {
+  background-color: hotpink;
+}
+
+article main .announce-trends .trends > div .koala {
+  background-color: orange;
+}
+
+article main .announce-trends .trends > div .owl {
+  background-color: #1992D4;
+}
+
 article main .announce-trends .trends > div img {
   height: 36px;
 }
