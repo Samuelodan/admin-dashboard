@@ -94,6 +94,8 @@ article header {
   -ms-grid-rows: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
   padding: 1rem 3rem;
+  -webkit-box-shadow: 0 2px 8px -2px #747474;
+          box-shadow: 0 2px 8px -2px #747474;
 }
 
 article header .upper-row ul {
@@ -221,6 +223,8 @@ article main .projects .project-cards {
   padding: 1.5rem;
   border-left: 10px solid #F0B429;
   position: relative;
+  -webkit-box-shadow: 2px 2px 6px -2px #747474;
+          box-shadow: 2px 2px 6px -2px #747474;
 }
 
 article main .projects .project-cards h1 {
@@ -262,6 +266,8 @@ article main .announce-trends .announcements {
   display: grid;
   -ms-grid-rows: (1fr)[3];
       grid-template-rows: repeat(3, 1fr);
+  -webkit-box-shadow: 2px 2px 6px -2px #747474;
+          box-shadow: 2px 2px 6px -2px #747474;
 }
 
 article main .announce-trends .announcements div {
@@ -293,6 +299,8 @@ article main .announce-trends .trends {
           align-items: center;
   -ms-grid-rows: (1fr)[4];
       grid-template-rows: repeat(4, 1fr);
+  -webkit-box-shadow: 2px 2px 6px -2px #747474;
+          box-shadow: 2px 2px 6px -2px #747474;
 }
 
 article main .announce-trends .trends > div {
