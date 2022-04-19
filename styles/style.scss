@@ -124,9 +124,9 @@ article {
           border-radius: 50%;
           background-color: hotpink;
          
-
           img {
             height: 36px;
+            
           }
         }
       }
@@ -239,15 +239,44 @@ article {
         height: 290px;
         background-color: $white;
         border-radius: 10px;
+        padding: 1.1rem 1.5rem;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+
+        div {
+          padding: 0.8rem 0.3rem;
+
+          h3 {
+            font-size: 0.9rem;
+            font-weight: 600;
+            //margin-bottom: 5px;
+
+          }
+
+          p {
+            font-size: 0.8rem;
+          }
+        }
+
+        div:not(:last-of-type) {
+          border-bottom: 2px solid $grey;
+        }
       }
 
       .trends {
         height: 272px;
         background-color: $white;
         border-radius: 10px;
+        
+
+
       }
+      
 
     }
+
+    
+
   }
 
 }

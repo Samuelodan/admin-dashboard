@@ -252,6 +252,28 @@ article main .announce-trends .announcements {
   height: 290px;
   background-color: #FFFFFF;
   border-radius: 10px;
+  padding: 1.1rem 1.5rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[3];
+      grid-template-rows: repeat(3, 1fr);
+}
+
+article main .announce-trends .announcements div {
+  padding: 0.8rem 0.3rem;
+}
+
+article main .announce-trends .announcements div h3 {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+article main .announce-trends .announcements div p {
+  font-size: 0.8rem;
+}
+
+article main .announce-trends .announcements div:not(:last-of-type) {
+  border-bottom: 2px solid #E2E8F0;
 }
 
 article main .announce-trends .trends {
